@@ -1,0 +1,51 @@
+CustomerBrowseClass
+Type: SystemDatabase
+Mark: :
+Parent: MyClassName
+cWindowName
+tablename
+column
+PrimaryKey
+columns
+columnstitles
+columnswidths
+showwindow
+closewindow
+OpenDataWindow
+showdatawindow
+print
+BeforeSearch
+SearchAdd
+settimer
+GetSearchValue
+SetColumns
+END:
+Type: Window
+Parent: MyWindowName
+Type: Image
+image1
+Type: Label
+lbl1
+Type: Textbox
+textName
+Type: Button
+btn1
+Type: Button
+btnclose
+Type: Grid
+Grid1
+Type: Button
+btnPrint
+Type: Combobox
+comboFind
+END:
+cName
+cName
+myout
+myout
+nIndex
+nvalue
+myout
+cName
+cName
+cName

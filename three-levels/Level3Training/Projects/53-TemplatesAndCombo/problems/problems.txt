@@ -1,0 +1,7 @@
+problem :
+the name in database or in tables in access files must be the same name used in program 
+when using the table name and the column name 
+==============================================
+
+be accurate in boxes is avalue or enabled 
+enabled only in "true or false "

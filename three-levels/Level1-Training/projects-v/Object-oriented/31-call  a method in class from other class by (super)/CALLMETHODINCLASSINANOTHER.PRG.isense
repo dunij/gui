@@ -1,0 +1,59 @@
+&(self:cWindowName)
+Type: MainWindow
+MainWindowObj
+out
+Type: Counter
+Mark: :
+Parent: Counter
+nNumber
+cWindowName
+Increment
+btnIncrement
+Class2UI
+UI2Class
+showWindow
+END:
+self:nNumber
+Type: Window
+Parent: MyWindow
+Type: Label
+lbl1
+Type: Textbox
+text1
+Type: Button
+btn1
+END:
+myout
+out
+self:nNumber
+Type: MainWindow
+Mark: :
+Parent: MainWindow
+NumWindows
+WindowMenues
+CloseWindow
+CounterWindow
+newWindowsNo
+CounterWindow2
+END:
+Type: Window
+Parent: winapp
+END:
+Type: Counter
+CounterObj
+out
+out
+self:NumWindows
+cNumWindows
+cNumWindows
+Type: Counter2
+CounterObj
+out
+out
+Type: Counter
+Mark: :
+Parent: Counter2
+cWindowName
+Increment
+END:
+self:nNumber

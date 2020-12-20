@@ -1,0 +1,14 @@
+aArray
+Type: Window
+Parent: win1
+Type: Listbox
+list1
+Type: Listbox
+list2
+Type: Button
+btn1
+END:
+padd
+nMax
+nLen
+aArray[x]

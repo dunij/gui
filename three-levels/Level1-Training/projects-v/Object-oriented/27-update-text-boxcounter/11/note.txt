@@ -1,0 +1,4 @@
+it is aproject
+set with procedure button (for class) in one method name 
+and get (for user interface) in another method name
+and calling by (get) method name in object 

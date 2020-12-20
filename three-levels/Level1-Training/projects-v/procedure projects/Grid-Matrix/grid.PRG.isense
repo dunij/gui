@@ -1,0 +1,26 @@
+aNumbers
+Type: Window
+Parent: win1
+Type: Listbox
+list1
+Type: Grid
+Grid1
+Type: Label
+lbl1
+Type: Textbox
+text1
+Type: Button
+btn1
+END:
+pWork
+nMax
+nSum
+cSum
+cSum
+cName1
+cName1
+cName2
+cName2
+pAdd
+nMax
+aNumbers

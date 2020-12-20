@@ -1,0 +1,32 @@
+Type: Window
+Parent: win1
+Type: Button
+btn1
+Type: Button
+btn2
+Type: Button
+btn3
+Type: Button
+btn4
+Type: Button
+btn5
+Type: Label
+lbl1
+Type: Label
+lbl2
+Type: Label
+lbl3
+Type: Textbox
+textname
+Type: Textbox
+textaddress
+Type: Textbox
+textphone
+Type: Textbox
+text3
+END:
+cname,caddress,cphone
+cname
+caddress
+cphone
+closed

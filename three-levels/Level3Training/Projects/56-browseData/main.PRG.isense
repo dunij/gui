@@ -1,0 +1,11 @@
+Type: CustomersClass
+CustomersObject
+Type: CustomerBrowseClass
+CustomerBrowseObject
+Type: CustDataBrowseClass
+CustomersDataBrowseObject
+Type: Window
+Parent: win1
+END:
+closesystem
+SetStar

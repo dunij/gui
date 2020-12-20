@@ -1,0 +1,38 @@
+Type: Window
+Parent: win1
+Type: Label
+lbl1
+Type: Label
+lbl2
+Type: Label
+lbl3
+Type: Label
+lbl4
+Type: Label
+lbl5
+Type: Textbox
+text1
+Type: Textbox
+text2
+Type: Textbox
+text3
+Type: Textbox
+text4
+Type: Textbox
+text5
+Type: Textbox
+text6
+Type: Button
+btn1
+END:
+psummition
+cnum1
+cnum2
+nnum1
+nnum2
+nsum
+csum
+csum
+nnum1
+nnum2
+nsum

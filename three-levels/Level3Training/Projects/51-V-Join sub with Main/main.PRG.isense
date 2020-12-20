@@ -1,0 +1,6 @@
+Type: AboutClass
+AboutObject
+Type: Window
+Parent: win1
+END:
+closesystem

@@ -1,0 +1,120 @@
+CustomersClass
+Type: SystemDatabase
+Mark: :
+Parent: MyClassName
+cWindowName
+TableName
+nCountryID
+aCountryItems
+aCountryItemsID
+cName
+cAddress
+cPhone
+dDateOfBirth
+nBalance
+showwindow
+closewindow
+SetMode
+UserInterface2Class
+Class2ADO
+ADO2Class
+Class2UserInterface
+ClearRecord
+AutoGotoRecord
+CheckData
+TotalBalance
+END:
+myout
+myout
+Type: Window
+Parent: MyWindowName
+Type: Image
+image1
+Type: Label
+lblTitle
+Type: Button
+btnFirst
+Type: Button
+btnNext
+Type: Button
+btnLast
+Type: Button
+btnClose
+Type: Button
+btnPrev
+Type: Button
+btnDel
+Type: Button
+btnsave
+Type: Button
+btncancel
+Type: Button
+btnedit
+Type: Button
+btnadd
+Type: Label
+lbl1
+Type: Label
+lbl2
+Type: Label
+lbl3
+Type: Textbox
+textName
+Type: Textbox
+textAddress
+Type: Textbox
+textPhone
+out
+Type: Label
+lblCountry
+Type: Combobox
+comboCountry
+Type: DatePicker
+datepickerwindow
+Type: Label
+lbl5
+Type: Label
+lbl6
+Type: Textbox
+textBalance
+Type: Button
+btnBalance
+END:
+myout
+myout
+self:cName
+self:cAddress
+self:cPhone
+self:nCountryID
+self:nCountryID
+self:dDateOfBirth
+self:nBalance
+self:nBalance
+self:cName
+self:cAddress
+self:cPhone
+self:nCountryID
+self:dDateOfBirth
+self:nBalance
+nIndex
+cBalance
+cBalance
+self:OperationMode
+lRet
+cName
+lRet
+nCountry
+lRet
+myoRS
+nBalance
+myoRS
+nBalance
+myoRS
+nTotal
+nMax
+nCustBalance
+nTotal
+myout
+myout
+self:LFindRecord
+self:CFindExpr

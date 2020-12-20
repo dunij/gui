@@ -1,0 +1,25 @@
+Type: Window
+Parent: win1
+Type: Label
+lbl1
+Type: Label
+lbl2
+Type: Label
+lbl3
+Type: Textbox
+textfrom
+Type: Textbox
+textto
+Type: Textbox
+textstep
+Type: Button
+btn1
+Type: Listbox
+list1
+END:
+pctrl
+nFrom
+nTo
+nStep
+x2
+x2

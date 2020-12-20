@@ -1,0 +1,3 @@
+problems :
+redifinitions of show window and showdatawindow
+to deactive them they must be out of the class method 

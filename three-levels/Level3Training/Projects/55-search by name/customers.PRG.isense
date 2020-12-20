@@ -1,0 +1,92 @@
+CustomersClass
+Type: SystemDatabase
+Mark: :
+Parent: MyClassName
+cWindowName
+TableName
+nCountryID
+aCountryItems
+aCountryItemsID
+cName
+cAddress
+cPhone
+dDateOfBirh
+showwindow
+closewindow
+SetMode
+UserInterface2Class
+Class2ADO
+ADO2Class
+Class2UserInterface
+ClearRecord
+AutoGotoRecord
+END:
+myout
+myout
+Type: Window
+Parent: MyWindowName
+Type: Image
+image1
+Type: Label
+lblTitle
+Type: Button
+btnFirst
+Type: Button
+btnNext
+Type: Button
+btnLast
+Type: Button
+btnClose
+Type: Button
+btnPrev
+Type: Button
+btnDel
+Type: Button
+btnsave
+Type: Button
+btncancel
+Type: Button
+btnedit
+Type: Button
+btnadd
+Type: Label
+lbl1
+Type: Label
+lbl2
+Type: Label
+lbl3
+Type: Textbox
+textName
+Type: Textbox
+textAddress
+Type: Textbox
+textPhone
+out
+Type: Label
+lblCountry
+Type: Combobox
+comboCountry
+Type: DatePicker
+datepickerwindow
+Type: Label
+lbl5
+END:
+myout
+myout
+self:cName
+self:cAddress
+self:cPhone
+self:nCountryID
+self:nCountryID
+self:dDateOfBirth
+self:cName
+self:cAddress
+self:cPhone
+self:nCountryID
+self:dDateOfBirth
+nIndex
+self:OperationMode
+myout
+myout
+self:LFindRecord
+self:CFindExpr

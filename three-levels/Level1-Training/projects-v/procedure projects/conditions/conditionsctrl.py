@@ -1,0 +1,92 @@
+if !iswindowdefined( win1 )
+DEFINE WINDOW win1 ;
+AT 10 ,10 ;
+WIDTH 781 ;
+HEIGHT 400 ;
+ICON "PWCTICON" ;
+TITLE "ctrl  " ;
+MAIN ;
+BACKCOLOR {236,233,216} 
+
+@ 46 ,611 LABEL lbl1 ;
+VALUE "from " ;
+WIDTH 218 ;
+HEIGHT 43 ;
+FONT "Arial" SIZE 18  ;
+BACKCOLOR {236,233,216} ;
+FONTCOLOR {0,0,0}
+@ 119 ,610 LABEL lbl2 ;
+VALUE "to " ;
+WIDTH 213 ;
+HEIGHT 35 ;
+FONT "Arial" SIZE 18  ;
+BACKCOLOR {236,233,216} ;
+FONTCOLOR {0,0,0}
+@ 184 ,610 LABEL lbl3 ;
+VALUE "step " ;
+WIDTH 224 ;
+HEIGHT 40 ;
+FONT "Arial" SIZE 18  ;
+BACKCOLOR {236,233,216} ;
+FONTCOLOR {0,0,0}
+@ 46 ,457 TEXTBOX textfrom;
+HEIGHT 40 ;
+WIDTH 110 ;
+FONT "Arial" SIZE 9 ;
+BACKCOLOR {255,255,255} ;
+FONTCOLOR {0,0,0} ;
+NUMERIC 
+
+@ 110 ,456 TEXTBOX textto;
+HEIGHT 40 ;
+WIDTH 110 ;
+FONT "Arial" SIZE 9 ;
+BACKCOLOR {255,255,255} ;
+FONTCOLOR {0,0,0} ;
+NUMERIC 
+
+@ 174 ,456 TEXTBOX textstep;
+HEIGHT 40 ;
+WIDTH 110 ;
+FONT "Arial" SIZE 9 ;
+BACKCOLOR {255,255,255} ;
+FONTCOLOR {0,0,0} ;
+NUMERIC 
+
+@ 110 ,255 BUTTONEX btn1;
+CAPTION "Test ";
+FONTCOLOR {0,0,0};
+BACKCOLOR {128,255,128};
+ON CLICK pctrl()  ;
+WIDTH 100 HEIGHT 60 ;
+FONT "Arial" SIZE 18 ;
+NOXPSTYLE ;
+TOOLTIP ""
+@ 10 ,10 LISTBOX list1;
+WIDTH 200 ;
+HEIGHT 200 ;
+FONT "Arial" SIZE 9 ;
+BACKCOLOR {255,255,255} ;
+FONTCOLOR {0,0,0}
+END WINDOW
+
+ACTIVATE WINDOW win1
+EndIF
+
+procedure pctrl()
+nFrom := win1.textfrom.Value
+nTo := win1.textto.Value
+nStep := win1.textstep.Value
+win1.list1.DeleteAllItems ( )
+FOR x =nFrom TO nTo STEP nStep
+x2 = STR ( x )
+x2 = ALLTRIM ( x2 )
+Win1.List1.Additem ( x2 )
+IF x=2
+Win1.List1.Additem ( "mahmoud samir " )
+Loop
+Exit
+ENDIF
+Next
+return
+

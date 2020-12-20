@@ -1,0 +1,24 @@
+Type: Customer
+CustomerObj
+out
+Type: Customer
+self
+Mark: :
+Parent: Customer
+showWindow
+Connect
+DisConnect
+RecordsCount
+END:
+Type: Window
+Parent: win1
+Type: Button
+btn1
+Type: Button
+btn2
+Type: Button
+btn3
+END:
+oCon
+oRS
+nMax

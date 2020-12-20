@@ -1,0 +1,10 @@
+take care of the arrangement of parametres 
+that :
+cWindow , nObjects -----produce success 
+cWindow     -------- >   nObjects
+but nObjects ,cWindow      produce errors
+
+------
+(cWindow) :means any parameter for window number counter && (nObjects) :means any parameter for all (windows with objects)
+as we set 
+nObjects=> cWindow  +  counter var.(cNumWindows) 

@@ -1,0 +1,31 @@
+Type: MySumClass
+oObj
+Type: Get
+oGet
+out
+out
+out
+mySum
+Type: MySumClass
+Mark: :
+Parent: MySumClass
+Num1
+Num2
+nSum
+Sum
+Sum2
+END:
+nSum
+self:nSum
+Type: Get
+Mark: :
+Parent: Get
+nNum1
+nNum2
+nSum
+gSum
+getnNum1
+getnNum2
+getnSum
+END:
+self:nSum

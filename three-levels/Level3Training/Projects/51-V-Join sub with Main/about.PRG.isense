@@ -1,0 +1,13 @@
+AboutClass
+Type: MyClassName
+Mark: :
+Parent: MyClassName
+cWindowName
+showwindow
+closewindow
+END:
+Type: Window
+Parent: MyWindowName
+Type: Button
+btnClose
+END:

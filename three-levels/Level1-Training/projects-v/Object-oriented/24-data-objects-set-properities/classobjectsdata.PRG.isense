@@ -1,0 +1,16 @@
+Type: Summitions
+oShow
+out
+out
+Type: Summitions
+Mark: :
+Parent: Summitions
+nNum1
+nNum2
+nSum
+cTitle
+Sum
+Show
+END:
+self:nSum
+self:nSum

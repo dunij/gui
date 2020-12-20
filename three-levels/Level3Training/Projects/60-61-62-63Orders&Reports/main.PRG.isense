@@ -1,0 +1,21 @@
+Type: CustomersClass
+CustomersObject
+Type: CustomerBrowseClass
+CustomerBrowseObject
+Type: CustDataBrowseClass
+CustomersDataBrowseObject
+Type: DataBrowseByCountryClass
+DataBrowseByCountryObject
+Type: CustomerReportWithoutFilterClass
+CustomerReportWithoutFilterObject
+Type: CustomerReportFilterClass
+CustomerReportFilterObject
+Type: OrdersClass
+OrdersObject
+Type: OrdersReportClass
+OrdersReportObject
+Type: Window
+Parent: win1
+END:
+closesystem
+SetInstalll

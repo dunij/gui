@@ -1,0 +1,13 @@
+aCounter
+cDate
+Type: Window
+Parent: win1
+Type: Listbox
+list1
+END:
+pAdd
+cDate
+x2
+x2
+x2
+x2

@@ -1,0 +1,92 @@
+Type: Customer
+CustomerObj
+OutPut
+Type: Customer
+self
+Mark: :
+Parent: Customer
+oCon
+oRS
+cName
+cAddress
+cPhone
+showWindow
+Connect
+DisConnect
+RecordsCount
+showRecords
+Searches
+Ado2Class
+Class2UI
+showRecord
+First
+Next
+Previous
+Last
+GotoRecord
+END:
+out
+Type: Window
+Parent: win1
+Type: Grid
+Grid1
+Type: Label
+lbl1
+Type: Textbox
+textSearches
+Type: Label
+lbl2
+Type: Label
+lbl3
+Type: Label
+lbl4
+Type: Textbox
+textName
+Type: Textbox
+textAddress
+Type: Textbox
+textPhone
+Type: Button
+btn4
+Type: Button
+btn5
+Type: Button
+btn6
+Type: Button
+btn7
+Type: Label
+lbl5
+Type: Label
+lblRecordsCount
+END:
+out
+out
+Self:oCon
+Self:oRS
+nMax
+nMax
+cName
+cAddress
+cphone
+out
+cMax
+cMax
+cName
+myoutput
+self:cName
+self:cAddress
+self:cPhone
+nMax
+out
+out
+out
+out
+lCheck
+out
+out
+lCheck
+out
+out
+nIndex
+nIndex
+out

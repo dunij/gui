@@ -1,0 +1,7 @@
+Cannot open CustomerReportFilter.PRG, assumed external
+Borland Resource Compiler  Version 5.40
+Copyright (c) 1990, 1999 Inprise Corporation.  All rights reserved.
+C:\Users\shimo\AppData\Local\Temp\hbmk_vevzz1.dir\main.c:
+C:\Users\shimo\AppData\Local\Temp\hbmk_8wkaad.c:
+Turbo Incremental Link 5.00 Copyright (c) 1997, 2000 Borland
+Error: Unresolved external '_HB_FUN_CUSTOMERREPORTFILTERCLASS' referenced from C:\USERS\SHIMO\APPDATA\LOCAL\TEMP\HBMK_VEVZZ1.DIR\MAIN.OBJ

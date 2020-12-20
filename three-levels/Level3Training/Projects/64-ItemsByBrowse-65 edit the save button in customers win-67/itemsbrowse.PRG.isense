@@ -1,0 +1,43 @@
+ItemsBrowseClass
+Type: SystemDatabase
+Mark: :
+Parent: MyClassName
+cWindowName
+tablename
+column
+PrimaryKey
+columns
+columnstitles
+columnswidths
+nSelectedItemID
+showwindow
+closewindow
+OpenDataWindow
+showdatawindow
+BeforeSearch
+SearchAdd
+settimer
+GetSearchValue
+END:
+Type: Window
+Parent: MyWindowName
+Type: Image
+image1
+Type: Label
+lbl1
+Type: Textbox
+textName
+Type: Button
+btn1
+Type: Button
+btnclose
+Type: Grid
+Grid1
+END:
+self:nSelectedItemID
+outp
+nvalue
+myout
+cName
+cName
+cName
